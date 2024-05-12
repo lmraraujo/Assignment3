@@ -1,0 +1,15 @@
+GeneratorModel for create::c {
+
+	const PROJECT : string = "Assignment3"
+
+	const FOLDER : string = "src-gen"
+
+	statechart Statechart {
+
+		feature Outlet {
+			targetProject = PROJECT
+			targetFolder = FOLDER
+			libraryTargetFolder = "src"
+		}
+	}
+}
